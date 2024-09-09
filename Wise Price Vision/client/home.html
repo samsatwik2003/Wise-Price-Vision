@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <style>
+
+        body {
+            background-image: url('house.jpg');
+            background-size: cover;
+            background-position: center;
+            font-family: Arial, sans-serif;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .container {
+            text-align: center;
+            background-color: rgba(255, 255, 255, 0.8);
+            padding: 20px;
+            border-radius: 10px;
+        }
+        h1 {
+            margin-bottom: 20px;
+            color:green;
+            font-family:blue;
+
+        }
+        img {
+            width: 400px;
+            border-radius: 10px;
+        }
+        button {
+            padding: 10px 20px;
+            background-color: magenta;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+    <h1>WISE PRICE VISION</h1>
+    <img src="house1.jpg" alt="House Image" width="400">
+    <br>
+    <button onclick="redirectToMainPage()">CLICK TO PREDICT </button>
+
+    <script>
+        function redirectToMainPage() {
+            window.location.href = "app.html";
+        }
+    </script>
+</body>
+</html>
